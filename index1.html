@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main>
+        <h1>CapacityBay Survey Form</h1>
+            <h4>Thank you for taking the time to improve the platform</h4>
+        <div class="container">
+           <div class="img-con">
+               <!-- <img src="" alt="image"> -->
+           </div>
+<form action="">
+    <label for="Name">Name:</label> <br>
+    <input type="text" class="formcon" placeholder="Enter your name">
+        <label for="Email">Email:</label>
+        <input type="email" class="formcon" placeholder="Enter your Email">
+        <label for="Age">Age (optional):</label>
+        <input type="number" class="formcon" placeholder="Age">
+        <label for="text">Which option best described your current role?</label>
+        <select name="roles" class="formcon">
+            <option value="Select current role">Select current role</option>
+            <option value="student">Student</option>
+            <Option value="full-time job">Full Time Job>/Option>
+            <option value="full-time learner">Full Time Learner</option>
+            <option value="Prefer Not TO Say">Prefer Not TO Say</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="text">Would you recommend CapacityBay to a friend?</label><br>
+       
+        <label class="container1">Definitely
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container1">Maybe
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container1">Not Sure
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <!-- <label class="container1">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label> -->
+
+        <label for="Future">What is the favourite features of CapacityBay?</label>
+        <select name="select an option" class="formcon">
+            <option value="challenges">Challenges</option>
+            <Option value="projects">Projects</Option>
+            <option value="community">Community</option>
+            <option value="open source">Open source</option>
+        </select> 
+        <label for="Improvement">What would you like to see improved?</label><br>
+        <input type="checkbox">Front-end projects <br>
+        <input type="checkbox">Back-end projects <br>
+        <input type="checkbox">Data Visualization <br>
+        <input type="checkbox">Challenges <br>
+        <input type="checkbox">Open Source Community <br>
+        <input type="checkbox">Glitter help rooms <br>
+        <input type="checkbox">Videos <br>
+        <input type="checkbox">City Meetups <br>
+        <input type="checkbox">Wiki  <br>
+        <input type="checkbox">Forum <br>
+        <input type="checkbox">Additional Courses <br><br>
+        <label class="down" for="comments">Any comments or suggestions?</label>
+        <textarea name="commments" placeholder="Enter your comments here"  cols="50" rows="5"></textarea>
+        <input type="submit" value="submit" class="button">
+</form>
+</div>
+    </main>
+</body>
+</html>

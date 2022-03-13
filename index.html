@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form action="">
+                <label for="Name">Name:</label>
+                <br>
+                <input type="text"><br>
+                <br><label for="Email">Email:</label><br>
+                <input type="email"><br>
+                <br><label for="Age">Age:</label><br>
+                <input type="number" name="Age" required><br>
+                <label for="Gender">Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Rather not say<br>
+                <label for="Favorite Foods">Favorite Foods:</label><br>
+                <input type="checkbox">Beans<input type="checkbox">Rice<input type="checkbox"> Spaghetti
+                <input type="checkbox">Soup <input type="checkbox"> Pizza <br>
+                <br><label for="Certificate">Which option best describes your current role</label>
+                <select name="Job Roles" id="Certificates">
+                <option value="STUDENT">Student</option>
+                <Option value="Full Time Job">Full Time Job</Option>
+                <option value="BSC">BSC</option>
+                </select><br>
+         
+                <label for="Phone Number">Phone Number:</label>
+                <input type="number"><br>
+                <label for="About you">Tell us about yourself:</label>
+                <textarea name="About yourself" id="About yourself" cols="30" rows="10"></textarea><br>
+            
+                <input type="submit" value="submit">
+            
+            </form>    
+        </div>
+    </div>
+</body>
+</html>
