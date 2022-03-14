@@ -153,7 +153,7 @@ overflow-y: auto;
   
   @media screen and (max-width:390px) {
    form{
-    background-color: red;
+    background-image: ;
     font-size: 12px;
     width: 320px;
 }
@@ -169,10 +169,24 @@ h1{
 }
 main{
     font-size: 12px;
-    background-image: none;
+    background-image: url('bg.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: grid;
+    place-content: center;
+    align-items: center;
     
 }
 .container{
     width: 320px;
+}
+.comment{
+    width: 320px;
+}
+.submit{
+    width: 320px;
+    /* height: ; */
 }
   }
