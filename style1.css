@@ -5,7 +5,8 @@
 main{
     width: 100%;
     height: 100vh;
-     background-color:rgba(0, 0, 0, 0.7);
+     background-color: rgba(0, 0, 0, 0.7);
+    
     background-image: url('bg.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
@@ -20,7 +21,7 @@ h1{
     font-size: 2rem;
     text-align: center;
     padding-top: 20px;
-    color: aliceblue;
+    color: greenyellow;
     font-family: montserrat;
 }
 h4{
@@ -51,12 +52,13 @@ overflow-y: auto;
 
 }
 .formcon{
-    background-color: rgb(0, 255, 85);
+    background-color: #fff;
+    font-size: 16px;
     display: block;
     width: 400px;
     border: 1px solid rgb(158, 156, 156);
     outline: none;
-    height: 20px;
+    height: 22px;
     margin: 5px;
     margin-bottom: 17px; 
 }
@@ -69,16 +71,16 @@ overflow-y: auto;
 }
 .button:hover{
 
-    background-color: yellow;
+    background-color: greenyellow;
     /* width: 420px; */
   justify-self: center;
 }
  .down{ 
      /* background-color: red; */
-    margin: 15px;
-    /* margin-bottom: 25px; */
-    /* padding-bottom: 30px; */
-}  *
+    /* margin: 15px; */
+    margin-bottom: 55px;
+    padding-bottom: 0px;
+}  
 
 .container1 {
     display: block;
@@ -138,18 +140,29 @@ overflow-y: auto;
       background: white;
   }
   .comment{
-      
+      padding-top: 0;
+      margin-top: 0%;
       width: 400px;
       height: 150px;
       background-color: white;
-      /* opacity: 0.4; */
-      color: black;
+      opacity: 0.8; 
       /* border-radius: 10px; */
   }
+
+ 
   .submit{
       padding-top: 20px;
       border-radius: 30px;
+      width: 320px;
   }
+  /* .commented{
+      padding: 0;
+      margin: 0%;
+  } */
+  
+
+
+
   
   @media screen and (max-width:390px) {
    form{
@@ -183,10 +196,15 @@ main{
     width: 320px;
 }
 .comment{
-    width: 320px;
+    width: 300px;
 }
-.submit{
-    width: 320px;
+.button{
+    width: 300px;
+    background-color: aqua;
+    
     /* height: ; */
 }
+.container1 input:checked ~ .checkmark {
+    background-color: firebrick;
+
   }
